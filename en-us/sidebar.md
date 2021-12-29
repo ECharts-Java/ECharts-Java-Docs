@@ -8,3 +8,8 @@
       - [Bar](en-us/bar)
       - [Line](en-us/line)
     - [Pie](en-us/pie)
+    
+- Simple Usage
+
+- Web Framework Integration
+    - [Spring Boot](en-us/webframework)
