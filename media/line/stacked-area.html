@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ECharts Demo</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.2.2/echarts.min.js"
+        integrity="sha512-ivdGNkeO+FTZH5ZoVC4gS4ovGSiWc+6v60/hvHkccaMN2BXchfKdvEZtviy5L4xSpF8NPsfS0EVNSGf+EsUdxA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        #display-container {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="display-container">
+    </div>
+    <script type="text/javascript">
+        let chart = echarts.init(document.getElementById("display-container"));
+        let option = {"title":{"text":"Stacked Area"},"xAxis":[{"type":"category","data":["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],"boundaryGap":false}],"yAxis":[{"type":"value"}],"tooltip":{"trigger":"axis"},"legend":{"show":true},"series":[{"type":"line","name":"Line 1","data":[140,232,101,264,90,340,250],"stack":"Total","lineStyle":{"width":0},"areaStyle":{},"smooth":true,"showSymbol":false},{"type":"line","name":"Line 2","data":[120,282,111,234,220,340,310],"stack":"Total","lineStyle":{"width":0},"areaStyle":{},"smooth":true,"showSymbol":false},{"type":"line","name":"Line 3","data":[320,132,201,334,190,130,220],"stack":"Total","lineStyle":{"width":0},"areaStyle":{},"smooth":true,"showSymbol":false},{"type":"line","name":"Line 4","data":[220,402,231,134,190,230,120],"stack":"Total","lineStyle":{"width":0},"areaStyle":{},"smooth":true,"showSymbol":false},{"type":"line","name":"Line 5","data":[220,302,181,234,210,290,150],"stack":"Total","lineStyle":{"width":0},"areaStyle":{},"smooth":true,"showSymbol":false}]}
+        chart.setOption(option);
+    </script>
+</body>
+
+</html>

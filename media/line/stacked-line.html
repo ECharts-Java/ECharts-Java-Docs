@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ECharts Demo</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.2.2/echarts.min.js"
+        integrity="sha512-ivdGNkeO+FTZH5ZoVC4gS4ovGSiWc+6v60/hvHkccaMN2BXchfKdvEZtviy5L4xSpF8NPsfS0EVNSGf+EsUdxA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        #display-container {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="display-container">
+    </div>
+    <script type="text/javascript">
+        let chart = echarts.init(document.getElementById("display-container"));
+        let option = {"title":{"text":"Stacked Line"},"xAxis":[{"type":"category","data":["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],"boundaryGap":false}],"yAxis":[{"type":"value"}],"tooltip":{"trigger":"axis"},"legend":{"show":true},"series":[{"type":"line","name":"Email","data":[120,132,101,134,90,230,210],"stack":"Total"},{"type":"line","name":"Union Ads","data":[220,182,191,234,290,330,310],"stack":"Total"},{"type":"line","name":"Video Ads","data":[150,232,201,154,190,330,410],"stack":"Total"},{"type":"line","name":"Direct","data":[320,332,301,334,390,330,320],"stack":"Total"},{"type":"line","name":"Search Engine","data":[820,932,901,934,1290,1330,1320],"stack":"Total"}]}
+        chart.setOption(option);
+    </script>
+</body>
+
+</html>

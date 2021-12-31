@@ -1,10 +1,10 @@
-# ECharts Java <small>0.1</small>
+# ECharts Java <small>1.0.0</small>
 
-> A magical documentation site generator.
+> A Java Visualization Library based on Apache ECharts.
 
-- Simple and lightweight
-- No statically built html files
-- Multiple themes
+- More than 18 kinds of charts
+- Integration with web frameworks
+- Easily export to JPG, HTML, and JSON
 
 [GitHub](https://github.com/IcePear-Jzx/ECharts-Java.git)
-[Get Started](en-us/install)
+[Get Started](en-us/quick-start)
