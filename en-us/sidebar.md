@@ -8,8 +8,9 @@
       - [Bar](en-us/bar)
       - [Line](en-us/line)
     - [Pie](en-us/pie)
-    
+
 - Simple Usage
 
 - Web Framework Integration
-    - [Spring Boot](en-us/webframework)
+    - [Spring Boot Template Rendering](en-us/sb-template.md)
+    - [Spring Boot RESTful APIs](en-us/sb-restful.md)
