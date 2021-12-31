@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ECharts Demo</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.2.2/echarts.min.js"
+        integrity="sha512-ivdGNkeO+FTZH5ZoVC4gS4ovGSiWc+6v60/hvHkccaMN2BXchfKdvEZtviy5L4xSpF8NPsfS0EVNSGf+EsUdxA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        #display-container {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="display-container">
+    </div>
+    <script type="text/javascript">
+        let chart = echarts.init(document.getElementById("display-container"));
+        let option = {"xAxis":[{"type":"value"}],"yAxis":[{"type":"category","data":["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]}],"tooltip":{"axisPointer":{"type":"shadow"},"trigger":"axis"},"legend":{"show":true},"series":[{"type":"bar","name":"Direct","emphasis":{"focus":"series"},"data":[320,302,301,334,390,330,320],"label":{"show":true},"stack":"total"},{"type":"bar","name":"Mail Ad","emphasis":{"focus":"series"},"data":[120,132,101,134,90,230,210],"label":{"show":true},"stack":"total"},{"type":"bar","name":"Affiliate Ad","emphasis":{"focus":"series"},"data":[220,182,191,234,290,330,310],"label":{"show":true},"stack":"total"},{"type":"bar","name":"Video Ad","emphasis":{"focus":"series"},"data":[150,212,201,154,190,330,410],"label":{"show":true},"stack":"total"},{"type":"bar","name":"Search Engine","emphasis":{"focus":"series"},"data":[820,832,901,934,1290,1330,1320],"label":{"show":true},"stack":"total"}]}
+        chart.setOption(option);
+    </script>
+</body>
+
+</html>
