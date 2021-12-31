@@ -1,8 +1,6 @@
-# Spring Boot
+# Spring Boot - Template Rendering
 
-?> This tutorial introduces how to use ECharts Java in a Spring Boot Application
-
-## Template Rendering
+?> This tutorial introduces how to use ECharts Java in a Spring Boot Application through a template rendering method.
 
 ECharts Java uses Handlebars.java as a built-in template engine, which helps to render the html page. In a Spring Boot Application, you can write your own template with various template engines. To use ECharts Java in your templates, there are at least two ways.
 
@@ -11,7 +9,7 @@ ECharts Java uses Handlebars.java as a built-in template engine, which helps to 
 
 The following example will show how to use **HandleBars** template engine to generate customized content with ECharts Java in the above two approaches.
 
-The example repo can be found here [repoTODO](TODOTODO).
+The example repo can be found [here](https://github.com/incandescentxxc/ECharts-Java-Examples/tree/main/template-demo).
 
 ### Step 0: Initialization
 
@@ -39,7 +37,25 @@ Add below dependency in your pom.xml.
 
 After the initialization, the project directory will look like this,
 ```
-TODOOOO
+├── HELP.md
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+└── src
+    ├── main
+    │   ├── java
+    │   │   └── org
+    │   │       └── icepear
+    │   │           └── echarts
+    │   │               └── example
+    │   │                   └── springboot
+    │   │                       └── templatedemo
+    │   │                           └── TemplateDemoApplication.java
+    │   └── resources
+    │       ├── application.properties
+    │       ├── static
+    │       └── templates
+    └── test
 ```
 
 ### Step 1: Write your templates
@@ -176,8 +192,6 @@ run `./mvnw spring-boot:run ` in the terminal. To see the results of the second 
 
 images to add here TODO
 
-
-## Restful APIs
 
 
 
