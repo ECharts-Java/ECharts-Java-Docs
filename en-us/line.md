@@ -1,12 +1,12 @@
 # Line
 
 ```java
-public class Line extends CartesianChart<Line, LineSeries> {
+public class Line extends CartesianCoordChart<Line, LineSeries> {
     public Line();
 }
 ```
 
-`Line` extends `CartesianChart` and `Chart`. For more APIs, please refer to [CartesianCoordChart](en-us/cartesian-coord-chart) and [Chart](en-us/chart).
+`Line` extends `CartesianCoordChart` and `Chart`. For more APIs, please refer to [CartesianCoordChart](en-us/cartesian-coord-chart) and [Chart](en-us/chart).
 
 ## Basic Line
 

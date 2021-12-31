@@ -1,7 +1,7 @@
 # CartesianChart
 
 ```java
-public abstract class CartesianChart<T extends Chart<?, ?>, E extends SeriesOption> extends Chart<T, E> {
+public abstract class CartesianCoordChart<T extends Chart<?, ?>, E extends SeriesOption> extends Chart<T, E> {
     public T addXAxis();
 
     public T addXAxis(String name);
