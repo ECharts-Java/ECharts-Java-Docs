@@ -4,7 +4,7 @@
 
 ECharts Java uses Handlebars.java as a built-in template engine, which helps to render the html page. In a Spring Boot Application, you can write your own template with various template engines. To use ECharts Java in your templates, there are at least two ways.
 
-1. Use iframes to make a sperate request in your template, and return the full html using `renderHtml` method in ECharts Java.
+1. Use `iframes` to make a sperate request in your template, and return the full html using `renderHtml` method in ECharts Java.
 2. Import Echarts in your own templates, and use ECharts Java to write the Option object that is used in the Echart functions in Javascript.
 
 The following example will show how to use **HandleBars** template engine to generate customized content with ECharts Java in the above two approaches.
@@ -118,7 +118,7 @@ If you want to use the Option object, you can add a template like below, e.g. `i
 
 Add a controller class. 
 
-If you want to use iframes, in the controller, specify one function to return the full html of homepage, and at least one function to render the echart, whose name should correspond to the iframe src in your template.
+If you want to use `iframes`, in the controller, specify one function to return the full html of homepage, and at least one function to render the echart, whose name should correspond to the iframe src in your template.
 
 ```java
 @RestController
@@ -190,7 +190,9 @@ public class ControllerMethod2 {
 
 run `./mvnw spring-boot:run ` in the terminal. To see the results of the second method, enter localhost:8080/option in the url field of the browser.
 
-images to add here TODO
+The output will look like the following,
+
+[basic-area-html](../media/line/basic-area.html ':include :type=iframe')
 
 
 
