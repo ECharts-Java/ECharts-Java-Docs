@@ -146,7 +146,7 @@ public class Controller {
                 .addYAxis()
                 .addSeries(new LineSeries()
                         .setData(new Number[] { 820, 932, 901, 934, 1290, 1330, 1320 })
-                        .setAreaStyle(new AreaStyle()));
+                        .setAreaStyle(new LineAreaStyle()));
         Engine engine = new Engine();
         // return the full html of the echarts, used in iframes in your own template
         String json = engine.renderHtml(line);
@@ -170,7 +170,7 @@ public class ControllerMethod2 {
                 .addYAxis()
                 .addSeries(new LineSeries()
                         .setData(new Number[] { 820, 932, 901, 934, 1290, 1330, 1320 })
-                        .setAreaStyle(new AreaStyle()));
+                        .setAreaStyle(new LineAreaStyle()));
         Engine engine = new Engine();
         Handlebars handlebars = new Handlebars();
         String html = "";
