@@ -19,10 +19,13 @@
       - [Radar](radar)
     - [ParallelCoordChart](parallel-coord-chart)
       - [Parallel](parallel)
+    - [SingleCoordChar](single-coord-chart)
+      - [ThemeRiver](theme-river)
     - [Pie](pie)
     - [Graph](graph)
     - [Sankey](sankey)
     - [Funnel](funnel)
+    - [Sunburst](sunburst)
     - [Gauge](gauge)
 
 - Web Framework Integration
