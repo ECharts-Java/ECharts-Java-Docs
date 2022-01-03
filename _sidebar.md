@@ -10,6 +10,7 @@
       - [Candlestick](candlestick)
       - [Line](line)
     - [Funnel](funnel)
+    - [Gauge](gauge)
     - [Pie](pie)
 
 - Web Framework Integration
