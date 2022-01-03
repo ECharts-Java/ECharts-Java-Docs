@@ -7,6 +7,7 @@
     - [CartesianCoordChart](cartesian-coord-chart)
       - [Line](line)
       - [Bar](bar)
+      - [Scatter](scatter)
       - [Boxplot](boxplot)
       - [Candlestick](candlestick)
       - [Heatmap](heatmap)
