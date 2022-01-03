@@ -1,0 +1,13 @@
+```java
+Boxplot boxplot = new Boxplot()
+        .setTooltip("item")
+        .addXAxis(new String[] { "expr 0", "expr 1", "expr 2", "expr 3", "expr 4" })
+        .addYAxis()
+        .addSeries(new Number[][] {
+                { 650, 850, 940, 980, 1070 },
+                { 760, 800, 845, 890, 960 },
+                { 620, 840, 855, 880, 970 },
+                { 720, 765, 815, 870, 920 },
+                { 740, 805, 810, 870, 950 }
+        });
+```

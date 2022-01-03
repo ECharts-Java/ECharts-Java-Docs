@@ -7,4 +7,4 @@
 - Easily export to JPG, HTML, and JSON
 
 [GitHub](https://github.com/IcePear-Jzx/ECharts-Java.git)
-[Get Started](en-us/quick-start)
+[Get Started](quick-start)

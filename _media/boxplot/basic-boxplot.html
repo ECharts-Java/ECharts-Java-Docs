@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ECharts Demo</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.2.2/echarts.min.js"
+        integrity="sha512-ivdGNkeO+FTZH5ZoVC4gS4ovGSiWc+6v60/hvHkccaMN2BXchfKdvEZtviy5L4xSpF8NPsfS0EVNSGf+EsUdxA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        #display-container {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="display-container">
+    </div>
+    <script type="text/javascript">
+        let chart = echarts.init(document.getElementById("display-container"));
+        let option = {"xAxis":[{"type":"category","data":["expr 0","expr 1","expr 2","expr 3","expr 4"]}],"yAxis":[{"type":"value"}],"tooltip":{"trigger":"item"},"series":[{"type":"boxplot","data":[[650,850,940,980,1070],[760,800,845,890,960],[620,840,855,880,970],[720,765,815,870,920],[740,805,810,870,950]]}]}
+        chart.setOption(option);
+    </script>
+</body>
+
+</html>
