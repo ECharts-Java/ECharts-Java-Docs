@@ -7,7 +7,9 @@
     - [CartesianCoordChart](cartesian-coord-chart)
       - [Bar](bar)
       - [Boxplot](boxplot)
+      - [Candlestick](candlestick)
       - [Line](line)
+    - [Funnel](funnel)
     - [Pie](pie)
 
 - Web Framework Integration
