@@ -11,6 +11,7 @@
       - [Line](line)
     - [Funnel](funnel)
     - [Gauge](gauge)
+    - [Graph](graph)
     - [Pie](pie)
 
 - Web Framework Integration
