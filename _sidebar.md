@@ -14,6 +14,8 @@
       - [PolarLine](polar-line)
       - [PolarBar](polar-bar)
       - [PolarScatter](polar-scatter)
+    - [RadarCoordChart](radar-coord-chart)
+      - [Radar](radar)
     - [ParallelCoordChart](parallel-coord-chart)
       - [Parallel](parallel)
     - [Pie](pie)
