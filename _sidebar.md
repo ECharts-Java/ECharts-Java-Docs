@@ -8,6 +8,7 @@
       - [Bar](bar)
       - [Boxplot](boxplot)
       - [Candlestick](candlestick)
+      - [Heatmap](heatmap)
       - [Line](line)
     - [Funnel](funnel)
     - [Gauge](gauge)
