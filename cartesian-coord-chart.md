@@ -1,4 +1,4 @@
-# CartesianChart
+# CartesianCoordChart
 
 ```java
 public abstract class CartesianCoordChart<T extends Chart<?, ?>, E extends SeriesOption> extends Chart<T, E> {
