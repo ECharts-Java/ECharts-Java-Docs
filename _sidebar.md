@@ -20,6 +20,7 @@
       - [Parallel](parallel)
     - [Pie](pie)
     - [Graph](graph)
+    - [Sankey](sankey)
     - [Funnel](funnel)
     - [Gauge](gauge)
 
