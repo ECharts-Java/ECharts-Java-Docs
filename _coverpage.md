@@ -6,5 +6,5 @@
 - Integration with web frameworks
 - Easily export to PNG, HTML, and JSON
 
-[GitHub](https://github.com/IcePear-Jzx/ECharts-Java.git)
+[GitHub](https://github.com/ECharts-Java/ECharts-Java.git)
 [Get Started](quick-start)

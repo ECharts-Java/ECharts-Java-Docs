@@ -1,5 +1,5 @@
 ```java
-// data is a JsonObject from https://raw.githubusercontent.com/IcePear-Jzx/ECharts-Java/master/src/test/resources/mock/les-miserables.json
+// data is a JsonObject from https://raw.githubusercontent.com/ECharts-Java/ECharts-Java/master/src/test/resources/mock/les-miserables.json
 List<GraphNodeItem> nodes = new ArrayList<>();
 for (JsonElement node : data.get("nodes").getAsJsonArray()) {
     nodes.add(new GraphNodeItem()

@@ -1,5 +1,5 @@
 ```java
-// data is a JsonObject from https://raw.githubusercontent.com/IcePear-Jzx/ECharts-Java/master/src/test/resources/mock/punch-card.json
+// data is a JsonObject from https://raw.githubusercontent.com/ECharts-Java/ECharts-Java/master/src/test/resources/mock/punch-card.json
 List<String> hours = new ArrayList<>();
 for (JsonElement hour : data.get("hours").getAsJsonArray()) {
     hours.add(hour.getAsString());
