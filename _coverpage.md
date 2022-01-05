@@ -4,7 +4,7 @@
 
 - More than 18 kinds of charts
 - Integration with web frameworks
-- Easily export to JPG, HTML, and JSON
+- Easily export to PNG, HTML, and JSON
 
 [GitHub](https://github.com/IcePear-Jzx/ECharts-Java.git)
 [Get Started](quick-start)
