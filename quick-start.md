@@ -16,17 +16,17 @@ For Gradle Groovy project, includes
 implementation 'org.icepear.echarts:echarts-java:1.0.0'
 ```
 
-For more, refer to [here](https://search.maven.org/artifact/org.icepear.echarts/echarts-java/1.0.0/jar).
+For others, see [here](https://search.maven.org/artifact/org.icepear.echarts/echarts-java/1.0.0/jar).
 
 ## Getting Started
 
 ### Make Visualization Locally and Saved the Image
 
-?> Let's draw our first EChart! You can use EChart Java to generate the charts you want, see it in the browser, and save the chart as image if you want!
+?> Let's draw our first EChart! You can use ECharts Java to generate the charts you want, see it in the browser, and save the chart as image if you want!
 
 ```java
 public static void main(String[] args) {
-    // All methods in EChart Java supports method chaining
+    // All methods in ECharts Java supports method chaining
     Bar bar = new Bar()
             .setTooltip(new Tooltip().setTrigger("axis")
                     .setAxisPointer(new TooltipAxisPointer().setType("shadow")))
@@ -48,7 +48,7 @@ public static void main(String[] args) {
 
 ### Construct Option Object
 
-?> In EChart, every chart is composed of Option object. That means, if you want to make visualization in EChart, it is necessary to build an Option object. ECharts Java understands that it may be nontrivial to build an Option from the scratch. As a result, ECharts Java wraps the original APIs, transforming the process of building an Option into a process of writing script-like codes. Meanwhile, EChart Java also preserves the original APIs, helping the advanced users to construct complicated Option object in Java. This, together with the template rendering, will help the backend developers implement visualization application without caring about the JavaScript details.
+?> In ECharts, every chart is composed of Option object. That means, if you want to make visualization in ECharts, it is necessary to build an Option object. ECharts Java understands that it may be nontrivial to build an Option from the scratch. As a result, ECharts Java wraps the original APIs, transforming the process of building an Option into a process of writing script-like codes. Meanwhile, ECharts Java also preserves the original APIs, helping the advanced users to construct complicated Option object in Java. This, together with the template rendering, will help the backend developers implement visualization application without caring about the JavaScript details.
 
 ```java
 // Construct Option object using the simplified Chart APIs
@@ -89,11 +89,29 @@ Option option = new Option()
         .setYAxis(yAxis)
         .setSeries(new SeriesOption[] { series });
 ```
-To understand how to build Option from scratch, please refer to [TODO]().
+To understand how to build Option from scratch, please refer to [APIs](en-us/chart) and the original [ECharts Documentation on Option Object](https://echarts.apache.org/en/option.html#title);
 
 ### Web Framework Integration
-?> Java is widely adpoted in web application development, and EChart Java is here to make it easier to develop visualization application with the popular web frameworks.
+?> Java is widely adpoted in web application development, and ECharts Java is here to make it easier to develop visualization application with the popular web frameworks.
 
 Please refer to our tutorial [Spring Boot Application Integration](en-us/sb-template).
 
-## Chart APIs Brief Tour
+## Chart APIs Brief Introduction
+
+The following example will explain the basics of the Chart API in ECharts Java. All the Chart classes in ECharts abstract the structure of a plot. For example, in the following codes, we plot a bar chart by specifying its title, legend, data etc. The below image will illustrate which part of the graph is corresponding to which part of the codes.
+
+```java
+Bar bar = new Bar()
+        .setTitle("Drink Sales by Year")
+        .setLegend(true)
+        .setTooltip("item")
+        .addXAxis(new String[] { "Matcha Latte", "Milk Tea", "Cheese Cocoa", "Walnut Brownie" })
+        .addYAxis()
+        .addSeries("2015", new Number[] { 43.3, 83.1, 86.4, 72.4 })
+        .addSeries("2016", new Number[] { 85.8, 73.4, 65.2, 53.9 })
+        .addSeries("2017", new Number[] { 93.7, 55.1, 82.5, 39.1 });
+```
+
+<img src="_media/imgs/chart-apis-intro.png" alt="Json Representation" style="width:70%;" />
+
+Since different kinds of charts may differ from their structure, for more complete documentation, please refer to [APIs](en-us/chart).
