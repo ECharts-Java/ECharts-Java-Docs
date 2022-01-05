@@ -15,14 +15,14 @@ The example repo can be found [here](https://github.com/incandescentxxc/ECharts-
 
 1. [**Initialize a Spring Boot Application**](https://spring.io/guides/gs/spring-boot/#scratch)
 
-2. [**Install ECharts Java Dependency**](https://search.maven.org/artifact/org.icepear.echarts/echarts-java/1.0.0/jar)
+2. [**Install ECharts Java Dependency**](https://search.maven.org/artifact/org.icepear.echarts/echarts-java/1.0.1/jar)
 
 If you use Maven, add below dependency in your pom.xml.
 ```
 <dependency>
   <groupId>org.icepear.echarts</groupId>
   <artifactId>echarts-java</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 </dependency>
 ```
 

@@ -1,4 +1,4 @@
-# ECharts Java <small>1.0.0</small>
+# ECharts Java <small>1.0.1</small>
 
 > A Java Visualization Library based on Apache ECharts.
 
