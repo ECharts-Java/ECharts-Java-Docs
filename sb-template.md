@@ -194,7 +194,7 @@ run `./mvnw spring-boot:run ` in the terminal. To see the results of the second 
 
 The output will look like the following,
 
-[basic-area-html](../media/line/basic-area.html ':include :type=iframe')
+[basic-area-html](_media/line/basic-area.html ':include :type=iframe')
 
 
 
