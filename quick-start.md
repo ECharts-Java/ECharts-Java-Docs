@@ -44,7 +44,7 @@ public static void main(String[] args) {
     engine.render("index.html", bar);
 }
 ```
-[basic-area-html](../media/bar/multiple-series-bar.html ':include :type=iframe')
+[basic-area-html](_media/bar/multiple-series-bar.html ':include :type=iframe')
 
 ### Construct Option Object
 
@@ -69,7 +69,7 @@ String jsonStr = engine.renderJsonOption(lineChart);
 ```
 
 The corresponding JSON string looks like the following,
-<img src="media/imgs/renderJsonOption.png" alt="Json Representation" style="width:70%;" />
+<img src="_media/imgs/renderJsonOption.png" alt="Json Representation" style="width:70%;" />
 
 For advanced usage, the Option object can also be constructed as follows,
 ```java
