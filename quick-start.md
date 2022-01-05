@@ -69,7 +69,26 @@ String jsonStr = engine.renderJsonOption(lineChart);
 ```
 
 The corresponding JSON string looks like the following,
-<img src="_media/imgs/renderJsonOption.png" alt="Json Representation" style="width:70%;" />
+
+```json
+{
+  "xAxis": [
+    {
+      "type": "category",
+      "data": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "boundaryGap": false
+    }
+  ],
+  "yAxis": [{ "type": "value" }],
+  "series": [
+    {
+      "type": "line",
+      "data": [820, 932, 901, 934, 1290, 1330, 1320],
+      "areaStyle": {}
+    }
+  ]
+}
+```
 
 For advanced usage, the Option object can also be constructed as follows,
 ```java
