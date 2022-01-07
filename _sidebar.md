@@ -36,7 +36,7 @@
   - [Legend](component-apis/legend)
   - [AxisOption](component-apis/axis-option)
 
-- Render APIs(render.md)
+- Render APIs
   - [render()](render/render)
   - [renderHtml()](render/render-html)
   - [renderJsonOption()](render/render-json-option)
