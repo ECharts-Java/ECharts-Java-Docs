@@ -2,7 +2,7 @@
 
 `AxisOption` is implemented by `ValueAxis`, `CategoryAxis`, `TimeAxis`, and `LogAxis` whose default types are "value", "category", "time", and "log" respectively.
 
-!> Do not call `setType()` to change the default type.
+!> Do not use `setType()` to change the default type.
 
 The four classes share most of their APIs:
 

@@ -35,6 +35,12 @@
   - [Title](component-apis/title)
   - [Legend](component-apis/legend)
   - [AxisOption](component-apis/axis-option)
+  - [PolarAxis](component-apis/polar-axis)
+  - [RadiusAxisOption](component-apis/radius-axis-option)
+  - [AngleAxisOption](component-apis/angle-axis-option)
+  - [RadarAxis](component-apis/radar-axis)
+  - [VisualMapOption](component-apis/visual-map-option)
+  - [Tooltip](component-apis/tooltip)
 
 - Render APIs(render.md)
   - [render()](render/render)
