@@ -47,7 +47,7 @@
   - [renderHtml()](render/render-html)
   - [renderJsonOption()](render/render-json-option)
 
-- Render APIs(render.md)
+- Render APIs
   - [render()](render/render)
   - [renderHtml()](render/render-html)
   - [renderJsonOption()](render/render-json-option)
