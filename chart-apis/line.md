@@ -1,16 +1,10 @@
 # Line
 
-```java
-public class Line extends CartesianCoordChart<Line, LineSeries> {
-    public Line();
-}
-```
-
 ## Usage
 
-`Line` extends `CartesianCoordChart` and `Chart`. For more APIs, please refer to [CartesianCoordChart](chart-apis/cartesian-coord-chart) and [Chart](chart-apis/chart).
-
 [chart-usage](chart-usage.md ':include')
+
+[cartesian-coord-chart-usage](cartesian-coord-chart-usage.md ':include')
 
 ## Demo
 
