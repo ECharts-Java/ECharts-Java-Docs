@@ -28,7 +28,7 @@ for (JsonElement category : data.get("categories").getAsJsonArray()) {
 Graph graph = new Graph()
         .setTitle("Les Miserables")
         .setTooltip("item")
-        .setLegend(true)
+        .setLegend()
         .addSeries(new GraphSeries().setName("Les Miserables")
                 .setData(nodes.toArray(new GraphNodeItem[0]))
                 .setLinks(links.toArray(new GraphEdgeItem[0]))

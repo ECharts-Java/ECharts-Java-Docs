@@ -1,7 +1,7 @@
 ```java
 Pie pie = new Pie()
         .setTooltip("item")
-        .setLegend(true)
+        .setLegend()
         .addSeries(new PieSeries()
                 .setSelectedMode("single")
                 .setRadius(new String[] { "0", "30%" })
