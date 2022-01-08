@@ -34,13 +34,17 @@
 - Component APIs
   - [Title](component-apis/title)
   - [Legend](component-apis/legend)
+  - [Tooltip](component-apis/tooltip)
+  - [Dataset](component-apis/dataset)
+  - [VisualMapOption](component-apis/visual-map-option)
   - [AxisOption](component-apis/axis-option)
   - [PolarAxis](component-apis/polar-axis)
   - [RadiusAxisOption](component-apis/radius-axis-option)
   - [AngleAxisOption](component-apis/angle-axis-option)
   - [RadarAxis](component-apis/radar-axis)
-  - [VisualMapOption](component-apis/visual-map-option)
-  - [Tooltip](component-apis/tooltip)
+  - [ParallelAxisOption](component-apis/parallel-axis-option)
+  - [SingleAxisOption](component-apis/single-axis-option)
+  
 
 - Render APIs
   - [render()](render/render)
