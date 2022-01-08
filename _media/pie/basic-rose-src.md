@@ -1,6 +1,6 @@
 ```java
 Pie pie = new Pie()
-        .setLegend(true)
+        .setLegend()
         .addSeries(new PieSeries()
                 .setRadius(new Number[] { 20, 150 })
                 .setRoseType("area")

@@ -1,6 +1,6 @@
 ```java
 ThemeRiver themeRiver = new ThemeRiver()
-        .setLegend(true)
+        .setLegend()
         .setSingleAxis(new TimeSingleAxis())
         .addSeries(new Object[][] {
                 { "2015/11/08", 10, "DQ" }, { "2015/11/09", 15, "DQ" }, { "2015/11/10", 35, "DQ" },

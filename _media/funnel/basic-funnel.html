@@ -20,7 +20,7 @@
     </div>
     <script type="text/javascript">
         let chart = echarts.init(document.getElementById("display-container"));
-        let option = {"title":{"text":"Funnel"},"tooltip":{"trigger":"item"},"legend":{"show":true},"series":[{"type":"funnel","data":[{"name":"Visit","value":60},{"name":"Inquiry","value":40},{"name":"Order","value":20},{"name":"Click","value":80},{"name":"Show","value":100}],"label":{"show":true,"position":"inside"}}]}
+        let option = {"title":{"text":"Funnel"},"tooltip":{"trigger":"item"},"legend":{},"series":[{"type":"funnel","data":[{"name":"Visit","value":60},{"name":"Inquiry","value":40},{"name":"Order","value":20},{"name":"Click","value":80},{"name":"Show","value":100}],"label":{"show":true,"position":"inside"}}]}
         chart.setOption(option);
     </script>
 </body>
