@@ -11,4 +11,4 @@
 - 一键将图表导出为PNG,HTML,和JSON
 
 [GitHub](https://github.com/ECharts-Java/ECharts-Java.git)
-[快速上手](quick-start)
+[快速上手](zh-cn/quick-start)
