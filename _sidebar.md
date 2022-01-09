@@ -1,6 +1,6 @@
 - Introduction
 
-  - [Quick Start](quick-start)
+  - [Quick Start](/)
 
 - Chart APIs
   - [Chart](chart-apis/chart)
