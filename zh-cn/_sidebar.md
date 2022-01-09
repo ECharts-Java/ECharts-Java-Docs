@@ -1,4 +1,5 @@
 - 介绍
+    - [特性介绍](zh-cn/features)
     - [快速上手](zh-cn/quick-start)
 
 - 图表(Chart)APIs
