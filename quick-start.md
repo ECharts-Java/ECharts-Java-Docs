@@ -18,7 +18,7 @@ implementation 'org.icepear.echarts:echarts-java:1.0.2'
 
 For others, see [here](https://search.maven.org/artifact/org.icepear.echarts/echarts-java/1.0.2/jar).
 
-## Getting Started
+## Getting Your Hands Dirty
 
 ### Make Visualization Locally and Saved the Image
 
