@@ -4,11 +4,11 @@
 
 # ECharts Java <small>1.0.2</small>
 
-> 基于Apach ECharts的Java可视化库
+> 基于Apach ECharts的Java数据可视化库
 
-- 支持超过18种可视化图
-- 和web框架极速整合
-- 一键将图导出为PNG,HTML,和JSON
+- 支持超过18种可视化图表
+- 和web框架极速集成
+- 一键将图表导出为PNG,HTML,和JSON
 
 [GitHub](https://github.com/ECharts-Java/ECharts-Java.git)
-[快速上手](zh-cn/quick-start)
+[快速上手](quick-start)
