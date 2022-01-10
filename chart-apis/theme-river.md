@@ -1,14 +1,14 @@
 # ThemeRiver
 
-```java
-public class ThemeRiver extends SingleCoordChart<ThemeRiver, ThemeRiverSeries> {
-    public ThemeRiver();
-}
-```
+## Usage
 
-`ThemeRiver` extends `SingleCoordChart` and `Chart`. For more APIs, please refer to [SingleCoordChart](chart-apis/single-coord-chart) and [Chart](chart-apis/chart).
+[chart-usage](chart-usage.md ':include')
 
-## Basic Theme River
+[single-coord-chart-usage](single-coord-chart-usage.md ':include')
+
+## Demo
+
+### Basic Theme River
 
 [basic-theme-river-src](../_media/theme-river/basic-theme-river-src.md ':include')
 
