@@ -1,14 +1,14 @@
 # PolarScatter
 
-```java
-public class PolarScatter extends PolarCoordChart<PolarScatter, ScatterSeries> {
-    public PolarScatter();
-}
-```
+## Usage
 
-`PolarScatter` extends `PolarCoordChart` and `Chart`. For more APIs, please refer to [PolarCoordChart](chart-apis/polar-coord-chart) and [Chart](chart-apis/chart).
+[chart-usage](chart-usage.md ':include')
 
-## Basic Polar Scatter
+[polar-coord-chart-usage](polar-coord-chart-usage.md ':include')
+
+## Demo
+
+### Basic Polar Scatter
 
 [basic-polar-scatter-src](../_media/polar-scatter/basic-polar-scatter-src.md ':include')
 

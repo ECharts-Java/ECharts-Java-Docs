@@ -1,14 +1,12 @@
 # Funnel
 
-```java
-public class Funnel extends Chart<Funnel, FunnelSeries> {
-    public Funnel();
-}
-```
+## Usage
 
-`Funnel` extends `Chart`. For more APIs, please refer to [Chart](chart-apis/chart).
+[chart-usage](chart-usage.md ':include')
 
-## Basic Funnel
+## Demo
+
+### Basic Funnel
 
 [basic-funnel-src](../_media/funnel/basic-funnel-src.md ':include')
 

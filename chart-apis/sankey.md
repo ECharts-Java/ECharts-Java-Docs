@@ -1,14 +1,12 @@
 # Sankey
 
-```java
-public class Sankey extends Chart<Sankey, SankeySeries> {
-    public Sankey();
-}
-```
+## Usage
 
-`Sankey` extends `Chart`. For more APIs, please refer to [Chart](chart-apis/chart).
+[chart-usage](chart-usage.md ':include')
 
-## Basic Sankey
+## Demo
+
+### Basic Sankey
 
 [basic-sankey-src](../_media/sankey/basic-sankey-src.md ':include')
 

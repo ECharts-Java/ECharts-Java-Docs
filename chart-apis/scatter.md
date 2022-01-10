@@ -1,14 +1,14 @@
 # Scatter
 
-```java
-public class Scatter extends CartesianCoordChart<Scatter, ScatterSeries> {
-    public Scatter();
-}
-```
+## Usage
 
-`Scatter` extends `CartesianCoordChart` and `Chart`. For more APIs, please refer to [CartesianCoordChart](chart-apis/cartesian-coord-chart) and [Chart](chart-apis/chart).
+[chart-usage](chart-usage.md ':include')
 
-## Basic Scatter
+[cartesian-coord-chart-usage](cartesian-coord-chart-usage.md ':include')
+
+## Demo
+
+### Basic Scatter
 
 [basic-scatter-src](../_media/scatter/basic-scatter-src.md ':include')
 

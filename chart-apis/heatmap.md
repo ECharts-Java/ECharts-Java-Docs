@@ -1,14 +1,14 @@
 # Heatmap
 
-```java
-public class Heatmap extends CartesianCoordChart<Heatmap, HeatmapSeries> {
-    public Heatmap();
-}
-```
+## Usage
 
-`Heatmap` extends `CartesianCoordChart` and `Chart`. For more APIs, please refer to [CartesianCoordChart](chart-apis/cartesian-coord-chart) and [Chart](chart-apis/chart).
+[chart-usage](chart-usage.md ':include')
 
-## Basic Heatmap
+[cartesian-coord-chart-usage](cartesian-coord-chart-usage.md ':include')
+
+## Demo
+
+### Basic Heatmap
 
 [basic-heatmap-src](../_media/heatmap/basic-heatmap-src.md ':include')
 

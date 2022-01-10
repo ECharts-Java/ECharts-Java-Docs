@@ -1,38 +1,38 @@
 # Bar
 
-```java
-public class Bar extends CartesianCoordChart<Bar, BarSeries> {
-    public Bar();
-}
-```
+## Usage
 
-`Bar` extends `CartesianCoordChart` and `Chart`. For more APIs, please refer to [CartesianCoordChart](chart-apis/cartesian-coord-chart) and [Chart](chart-apis/chart).
+[chart-usage](chart-usage.md ':include')
 
-## Basic Bar
+[cartesian-coord-chart-usage](cartesian-coord-chart-usage.md ':include')
+
+## Demo
+
+### Basic Bar
 
 [basic-bar-src](../_media/bar/basic-bar-src.md ':include')
 
 [basic-bar-html](../_media/bar/basic-bar.html ':include :type=iframe')
 
-## Highlight Single Bar
+### Highlight Single Bar
 
 [highlight-single-bar-src](../_media/bar/highlight-single-bar-src.md ':include')
 
 [highlight-single-bar-html](../_media/bar/highlight-single-bar.html ':include :type=iframe')
 
-## Multiple Series Bar
+### Multiple Series Bar
 
 [multiple-series-bar-src](../_media/bar/multiple-series-bar-src.md ':include')
 
 [multiple-series-bar-html](../_media/bar/multiple-series-bar.html ':include :type=iframe')
 
-## Horizontal Stacked Bar
+### Horizontal Stacked Bar
 
 [horizontal-stacked-bar-src](../_media/bar/horizontal-stacked-bar-src.md ':include')
 
 [horizontal-stacked-bar-html](../_media/bar/horizontal-stacked-bar.html ':include :type=iframe')
 
-## Waterfall
+### Waterfall
 
 [waterfall-src](../_media/bar/waterfall-src.md ':include')
 
