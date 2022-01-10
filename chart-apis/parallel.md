@@ -1,14 +1,14 @@
 # Parallel
 
-```java
-public class Parallel extends ParallelCoordChart<Parallel, ParallelSeries> {
-    public Parallel();
-}
-```
+## Usage
 
-`Parallel` extends `ParallelCoordChart` and `Chart`. For more APIs, please refer to [ParallelCoordChart](chart-apis/parallel-coord-chart) and [Chart](chart-apis/chart).
+[chart-usage](chart-usage.md ':include')
 
-## Basic Parallel
+[parallel-coord-chart-usage](parallel-coord-chart-usage.md ':include')
+
+## Demo
+
+### Basic Parallel
 
 [basic-parallel-src](../_media/parallel/basic-parallel-src.md ':include')
 

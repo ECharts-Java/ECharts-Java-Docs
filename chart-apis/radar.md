@@ -1,14 +1,14 @@
 # Radar
 
-```java
-public class Radar extends RadarCoordChart<Radar, RadarSeries> {
-    public Radar();
-}
-```
+## Usage
 
-`Radar` extends `RadarCoordChart` and `Chart`. For more APIs, please refer to [RadarCoordChart](chart-apis/radar-coord-chart) and [Chart](chart-apis/chart).
+[chart-usage](chart-usage.md ':include')
 
-## Basic Radar
+[radar-coord-chart-usage](radar-coord-chart-usage.md ':include')
+
+## Demo
+
+### Basic Radar
 
 [basic-radar-src](../_media/radar/basic-radar-src.md ':include')
 

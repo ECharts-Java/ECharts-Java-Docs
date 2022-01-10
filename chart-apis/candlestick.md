@@ -1,14 +1,14 @@
 # Candlestick
 
-```java
-public class Candlestick extends CartesianCoordChart<Candlestick, CandlestickSeries> {
-    public Candlestick();
-}
-```
+## Usage
 
-`Candlestick` extends `CartesianCoordChart` and `Chart`. For more APIs, please refer to [CartesianCoordChart](chart-apis/cartesian-coord-chart) and [Chart](chart-apis/chart).
+[chart-usage](chart-usage.md ':include')
 
-## Basic Candlestick
+[cartesian-coord-chart-usage](cartesian-coord-chart-usage.md ':include')
+
+## Demo
+
+### Basic Candlestick
 
 [basic-candlestick-src](../_media/candlestick/basic-candlestick-src.md ':include')
 

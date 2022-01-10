@@ -14,7 +14,7 @@ public T addXAxis(String name, String[] data);
 public T addXAxis(AxisOption xAxis);
 ```
 
-?> `T` represents any chart type that extends `CartesianCoordChart` (e.g., `LineChart`, `BarChart`). This is used to support method chaining.
+?> `T` represents any chart type that extends `CartesianCoordChart` (e.g., `Line`, `Bar`). This is used to support method chaining.
 
 `AxisOption` is implemented by `ValueAxis`, `CategoryAxis`, `TimeAxis`, and `LogAxis`.
 
@@ -36,7 +36,7 @@ public T addYAxis(String name, String[] data);
 public T addYAxis(AxisOption yAxis);
 ```
 
-?> `T` represents any chart type that extends `CartesianCoordChart` (e.g., `LineChart`, `BarChart`). This is used to support method chaining.
+?> `T` represents any chart type that extends `CartesianCoordChart` (e.g., `Line`, `Bar`). This is used to support method chaining.
 
 `AxisOption` is implemented by `ValueAxis`, `CategoryAxis`, `TimeAxis`, and `LogAxis`.
 
