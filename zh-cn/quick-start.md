@@ -111,12 +111,12 @@ Option option = new Option()
         .setSeries(new SeriesOption[] { series });
 ```
 
-如果想更详细地了解Option对象，可以参阅有关[APIs](zh-cn/chart)的文档，或是[Apache ECharts的官方文档](https://echarts.apache.org/en/option.html#title)。
+如果想更详细地了解Option对象，可以参阅有关[APIs](zh-cn/chart-apis/cartesian-coord-chart)的文档，或是[Apache ECharts的官方文档](https://echarts.apache.org/en/option.html#title)。
 
 
 ### 网络框架集成
 
-你可以很容易地将ECharts Java集成至当前许多流行的Web框架，例如Spring Boot。请参阅我们的[Spring Boot集成文档](zh-cn/sb-template)。
+你可以很容易地将ECharts Java集成至当前许多流行的Web框架，例如Spring Boot。请参阅我们的[Spring Boot集成文档](zh-cn/spring-boot/sb-template)。
 
 ## 图表APIs介绍
 
@@ -136,4 +136,4 @@ Bar bar = new Bar()
 
 <img src="../_media/imgs/chart-apis-intro.png" alt="Json Representation" style="width:70%;" />
 
-因为不同的图表结构不同，如果想更详细地了解图表APIs，请参阅[APIs](zh-cn/chart)。
+因为不同的图表结构不同，如果想更详细地了解图表APIs，请参阅[APIs](zh-cn/chart-apis/cartesian-coord-chart)。
