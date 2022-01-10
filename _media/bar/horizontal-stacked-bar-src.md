@@ -11,7 +11,7 @@ BarSeries createSeries(String name, Object[] data) {
 Bar bar = new Bar()
         .setTooltip(new Tooltip().setTrigger("axis")
                 .setAxisPointer(new TooltipAxisPointer().setType("shadow")))
-        .setLegend(true)
+        .setLegend()
         .addXAxis()
         .addYAxis(new String[] { "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" })
         .addSeries(createSeries("Direct", new Number[] { 320, 302, 301, 334, 390, 330, 320 }))

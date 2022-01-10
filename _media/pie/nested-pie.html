@@ -20,7 +20,7 @@
     </div>
     <script type="text/javascript">
         let chart = echarts.init(document.getElementById("display-container"));
-        let option = {"tooltip":{"trigger":"item"},"legend":{"show":true},"series":[{"type":"pie","data":[{"name":"Search Engine","value":1548},{"name":"Direct","value":775},{"name":"Marketing","selected":true,"value":679}],"selectedMode":"single","label":{"position":"inner"},"radius":["0","30%"]},{"type":"pie","data":[{"name":"Baidu","value":1048},{"name":"Direct","value":335},{"name":"Email","value":310},{"name":"Google","value":251},{"name":"Union Ads","value":234},{"name":"Bing","value":147},{"name":"Video Ads","value":135},{"name":"Others","value":102}],"radius":["45%","60%"]}]}
+        let option = {"tooltip":{"trigger":"item"},"legend":{},"series":[{"type":"pie","data":[{"name":"Search Engine","value":1548},{"name":"Direct","value":775},{"name":"Marketing","selected":true,"value":679}],"selectedMode":"single","label":{"position":"inner"},"radius":["0","30%"]},{"type":"pie","data":[{"name":"Baidu","value":1048},{"name":"Direct","value":335},{"name":"Email","value":310},{"name":"Google","value":251},{"name":"Union Ads","value":234},{"name":"Bing","value":147},{"name":"Video Ads","value":135},{"name":"Others","value":102}],"radius":["45%","60%"]}]}
         chart.setOption(option);
     </script>
 </body>

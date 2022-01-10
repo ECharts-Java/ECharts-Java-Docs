@@ -1,14 +1,14 @@
 # PolarLine
 
-```java
-public class PolarLine extends PolarCoordChart<PolarLine, LineSeries> {
-    public PolarLine();
-}
-```
+## Usage
 
-`PolarLine` extends `PolarCoordChart` and `Chart`. For more APIs, please refer to [PolarCoordChart](chart-apis/polar-coord-chart) and [Chart](chart-apis/chart).
+[chart-usage](chart-usage.md ':include')
 
-## Basic Polar Line
+[polar-coord-chart-usage](polar-coord-chart-usage.md ':include')
+
+## Demo
+
+### Basic Polar Line
 
 [basic-polar-line-src](../_media/polar-line/basic-polar-line-src.md ':include')
 

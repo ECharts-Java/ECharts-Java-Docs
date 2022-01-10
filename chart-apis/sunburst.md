@@ -1,14 +1,12 @@
 # Sunburst
 
-```java
-public class Sunburst extends Chart<Sunburst, SunburstSeries> {
-    public Sunburst();
-}
-```
+## Usage
 
-`Sunburst` extends `Chart`. For more APIs, please refer to [Chart](chart-apis/chart).
+[chart-usage](chart-usage.md ':include')
 
-## Basic Sunburst
+## Demo
+
+### Basic Sunburst
 
 [basic-sunburst-src](../_media/sunburst/basic-sunburst-src.md ':include')
 

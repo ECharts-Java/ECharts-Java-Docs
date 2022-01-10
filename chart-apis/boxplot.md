@@ -1,20 +1,20 @@
 # Boxplot
 
-```java
-public class Boxplot extends CartesianCoordChart<Boxplot, BoxplotSeries> {
-    public Boxplot();
-}
-```
+## Usage
 
-`Boxplot` extends `CartesianCoordChart` and `Chart`. For more APIs, please refer to [CartesianCoordChart](chart-apis/cartesian-coord-chart) and [Chart](chart-apis/chart).
+[chart-usage](chart-usage.md ':include')
 
-## Basic Boxplot
+[cartesian-coord-chart-usage](cartesian-coord-chart-usage.md ':include')
+
+## Demo
+
+### Basic Boxplot
 
 [basic-boxplot-src](../_media/boxplot/basic-boxplot-src.md ':include')
 
 [basic-boxplot-html](../_media/boxplot/basic-boxplot.html ':include :type=iframe')
 
-## Data Transform Boxplot
+### Data Transform Boxplot
 
 [data-transform-boxplot-src](../_media/boxplot/data-transform-boxplot-src.md ':include')
 

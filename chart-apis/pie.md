@@ -1,32 +1,30 @@
 # Pie
 
-```java
-public class Pie extends Chart<Pie, PieSeries> {
-    public Pie();
-}
-```
+## Usage
 
-`Pie` extends `Chart`. For more APIs, please refer to [Chart](chart-apis/chart).
+[chart-usage](chart-usage.md ':include')
 
-## Basic Pie
+## Demo
+
+### Basic Pie
 
 [basic-pie-src](../_media/pie/basic-pie-src.md ':include')
 
 [basic-pie-html](../_media/pie/basic-pie.html ':include :type=iframe')
 
-## Basic Doughnut
+### Basic Doughnut
 
 [basic-doughnut-src](../_media/pie/basic-doughnut-src.md ':include')
 
 [basic-doughnut-html](../_media/pie/basic-doughnut.html ':include :type=iframe')
 
-## Basic Rose
+### Basic Rose
 
 [basic-rose-src](../_media/pie/basic-rose-src.md ':include')
 
 [basic-rose-html](../_media/pie/basic-rose.html ':include :type=iframe')
 
-## Nested Pie
+### Nested Pie
 
 [nested-pie-src](../_media/pie/nested-pie-src.md ':include')
 

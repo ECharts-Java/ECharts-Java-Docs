@@ -19,7 +19,7 @@ for (JsonElement item : data.get("data").getAsJsonArray()) {
 
 ```java
 PolarScatter polarScatter = new PolarScatter()
-        .setLegend(true)
+        .setLegend()
         .setTooltip("item")
         .setPolarAxis()
         .setAngleAxis(new CategoryAngleAxis()

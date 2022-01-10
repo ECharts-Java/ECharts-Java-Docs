@@ -15,7 +15,7 @@ LineSeries createSeries(String name, Object[] data) {
 Line line = new Line()
         .setTitle("Stacked Area")
         .setTooltip("axis")
-        .setLegend(true)
+        .setLegend()
         .addXAxis(new CategoryAxis().setBoundaryGap(false)
                 .setData(new String[] { "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" }))
         .addYAxis()
