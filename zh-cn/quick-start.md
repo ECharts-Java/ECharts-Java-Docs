@@ -17,7 +17,7 @@ Gradle Groovy Project:
 implementation 'org.icepear.echarts:echarts-java:1.0.2'
 ```
 
-其他项目，请参阅[这里](https://search.maven.org/artifact/org.icepear.echarts/echarts-java/1.0.2/jar)。
+如果你使用的是其他项目，请参阅[这里](https://search.maven.org/artifact/org.icepear.echarts/echarts-java/1.0.2/jar)。
 
 ## 立刻上手
 
