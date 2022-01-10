@@ -26,6 +26,7 @@
     - [Sankey](chart-apis/sankey)
     - [Funnel](chart-apis/funnel)
     - [Sunburst](chart-apis/sunburst)
+    - [Tree](chart-apis/tree)
     - [Gauge](chart-apis/gauge)
 
 - Series APIs
