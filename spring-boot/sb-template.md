@@ -2,12 +2,12 @@
 
 ?> This tutorial introduces how to use ECharts Java in a Spring Boot Application through a template rendering method.
 
-ECharts Java uses Handlebars.java as a built-in template engine, which helps to render the html page. In a Spring Boot Application, you can write your own template with various template engines. To use ECharts Java in your templates, there are at least two ways.
+ECharts Java uses Handlebars.java as a built-in template engine, which helps to render the html page. In a Spring Boot Application, you can write your own template with various template engines, e.g. [HandleBars](https://github.com/jknack/handlebars.java), [Thymeleaf](https://www.thymeleaf.org/), [Apache Velocity](https://velocity.apache.org/). To use ECharts Java in your templates, there are at least two ways.
 
-1. Use `iframes` to make a sperate request in your template, and return the full html using `renderHtml` method in ECharts Java.
-2. Import Echarts in your own templates, and use ECharts Java to write the Option object that is used in the Echart functions in Javascript.
+1. Use `iframe` to make a sperate request in your template, and return the full html using `renderHtml` method in ECharts Java.
+2. Import ECharts in your own templates, and use ECharts Java to write the Option object that is used in the Echart functions in Javascript.
 
-The following example will show how to use **HandleBars** template engine to generate customized content with ECharts Java in the above two approaches.
+The following example will show how to use **HandleBars** template engine in a Maven project to generate customized content with ECharts Java in the above two approaches.
 
 The example repo can be found [here](https://github.com/incandescentxxc/ECharts-Java-Examples/tree/main/template-demo).
 
@@ -71,7 +71,7 @@ Add a template file in `src/main/resources/templates`, for example `index1.hbs` 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Echarts-Java Demo</title>
+    <title>ECharts-Java Demo</title>
 </head>
 
 <body>
@@ -96,11 +96,11 @@ If you want to use the Option object, you can add a template like below, e.g. `i
     <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.2.2/echarts.min.js"
         integrity="sha512-ivdGNkeO+FTZH5ZoVC4gS4ovGSiWc+6v60/hvHkccaMN2BXchfKdvEZtviy5L4xSpF8NPsfS0EVNSGf+EsUdxA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <title>Echarts-Java Demo</title>
+    <title>ECharts-Java Demo</title>
 </head>
 
 <body>
-    <h1>Welcome to Echarts Java</h1>
+    <h1>Welcome to ECharts Java</h1>
 
     {{!-- method 2: using Option object--}}
     <div id="display-container" style="height: 600px; width: 600px"></div>
@@ -118,7 +118,7 @@ If you want to use the Option object, you can add a template like below, e.g. `i
 
 ### Step 2: Add the controller
 
-Add a controller class. 
+Add a controller class in `src/main/java/org/icepear/echarts/example/springboot/templatedemo/`.
 
 If you want to use `iframes`, in the controller, specify one function to return the full html of homepage, and at least one function to render the echart, whose name should correspond to the iframe src in your template.
 

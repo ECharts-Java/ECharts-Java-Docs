@@ -51,11 +51,6 @@
   - [renderHtml()](render/render-html)
   - [renderJsonOption()](render/render-json-option)
 
-- Render APIs
-  - [render()](render/render)
-  - [renderHtml()](render/render-html)
-  - [renderJsonOption()](render/render-json-option)
-
 - Web Framework Integration
   - [Spring Boot Template Rendering](spring-boot/sb-template)
   - [Spring Boot RESTful APIs](spring-boot/sb-restful)
