@@ -108,12 +108,12 @@ Option option = new Option()
         .setYAxis(yAxis)
         .setSeries(new SeriesOption[] { series });
 ```
-To understand how to build Option from scratch, please refer to [APIs](en-us/chart) and the original [ECharts Documentation on Option Object](https://echarts.apache.org/en/option.html#title);
+To understand how to build Option from scratch, please refer to [APIs](chart-apis/cartesian-coord-chart) and the original [ECharts Documentation on Option Object](https://echarts.apache.org/en/option.html#title);
 
 ### Web Framework Integration
 ?> Java is widely adpoted in web application development, and ECharts Java is here to make it easier to develop visualization application with the popular web frameworks.
 
-Please refer to our tutorial [Spring Boot Application Integration](en-us/sb-template).
+Please refer to our tutorial [Spring Boot Application Integration](spring-boot/sb-template).
 
 ## Chart APIs Brief Introduction
 
@@ -133,4 +133,4 @@ Bar bar = new Bar()
 
 <img src="_media/imgs/chart-apis-intro.png" alt="Json Representation" style="width:70%;" />
 
-Since different kinds of charts may differ from their structure, for more complete documentation, please refer to [APIs](en-us/chart).
+Since different kinds of charts may differ from their structure, for more complete documentation, please refer to [APIs](chart-apis/cartesian-coord-chart).
