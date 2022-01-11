@@ -6,9 +6,6 @@ public class Dataset implements DatasetOption {
 
     public Dataset setId(String id);
 
-    @Setter(AccessLevel.NONE)
-    public Dataset Object source;
-
     public Dataset setSource(Map<String, Object>[] source);
 
     public Dataset setSource(Map<String, Object[]> source);

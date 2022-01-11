@@ -2,6 +2,10 @@
 
 ## Usage
 
+?> The following `T` represents `Parallel`. This is used to support method chaining. 
+
+?> The following `E` represents `ParallelSeries`.
+
 [chart-usage](chart-usage.md ':include')
 
 [parallel-coord-chart-usage](parallel-coord-chart-usage.md ':include')

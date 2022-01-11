@@ -16,8 +16,6 @@ public T setTitle(String text);
 public T setTitle(Title title);
 ```
 
-?> `T` represents any chart type that extends `Chart` (e.g., `Line`, `Bar`). This is used to support method chaining.
-
 For more APIs of `Title`, please refer to [Title](component-apis/title).
 
 ### setLegend()
@@ -29,8 +27,6 @@ public T setLegend();
 
 public T setLegend(Legend legend);
 ```
-
-?> `T` represents any chart type that extends `Chart` (e.g., `Line`, `Bar`). This is used to support method chaining.
 
 For more APIs of `Legend`, please refer to [Legend](component-apis/legend).
 
@@ -44,13 +40,11 @@ public T setTooltip(String trigger);
 public T setTooltip(Tooltip tooltip);
 ```
 
-?> `T` represents any chart type that extends `Chart` (e.g., `Line`, `Bar`). This is used to support method chaining.
-
 For more APIs of `Tooltip`, please refer to [Tooltip](component-apis/tooltip).
 
 ### addDataset()
 
-Dataset enables data reuse by different series and some simple data transforms (e.g., "filter", "sort").
+Dataset enables data reuse by different series and some simple data transforms (e.g., `"filter"`, `"sort"`).
 
 ```java
 public T addDataset(Object[] source);
@@ -61,8 +55,6 @@ public T addDataset(Object[][][] source);
 
 public T addDataset(Dataset dataset);
 ```
-
-?> `T` represents any chart type that extends `Chart` (e.g., `Line`, `Bar`). This is used to support method chaining.
 
 For more APIs of `Dataset`, please refer to [Dataset](component-apis/dataset).
 
@@ -75,8 +67,6 @@ public T setVisualMap(Number min, Number max);
 
 public T setVisualMap(VisualMapOption visualMap);
 ```
-
-?> `T` represents any chart type that extends `Chart` (e.g., `Line`, `Bar`). This is used to support method chaining.
 
 `VisualMapOption` is implemented by `ContinousVisualMap` and `PiecewiseVisualMap`.
 
@@ -101,9 +91,5 @@ public T addSeries(String name, Object[][][] data);
 
 public T addSeries(E series);
 ```
-
-?> `T` represents any chart type that extends `Chart` (e.g., `Line`, `Bar`). This is used to support method chaining. 
-
-?> `E` represents any class that extends `SeriesOption` (e.g., `LineSeries`, `BarSeries`).
 
 TODO: For more APIs of `SeriesOption`, please refer to [SeriesOption]().

@@ -1,6 +1,6 @@
 # AngleAxisOption
 
-`AngleAxisOption` is implemented by `ValueAngleAxis`, `CategoryAngleAxis`, `TimeAngleAxis`, and `LogAngleAxis` whose default types are "value", "category", "time", and "log" respectively.
+`AngleAxisOption` is implemented by `ValueAngleAxis`, `CategoryAngleAxis`, `TimeAngleAxis`, and `LogAngleAxis` whose default types are `"value"`, `"category"`, `"time"`, and `"log"` respectively.
 
 !> Do not use `setType()` to change the default type.
 
