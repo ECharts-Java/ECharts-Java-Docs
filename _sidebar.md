@@ -32,6 +32,7 @@
 - Series APIs
   - [SeriesOption](series-apis/series-option)
     - [LineSeries](series-apis/line-series)
+    - [BarSeries](series-apis/bar-series)
 
 - Component APIs
   - [Title](component-apis/title)
