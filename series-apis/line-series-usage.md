@@ -1,3 +1,13 @@
+## setCoordinateSystem()
+
+```java
+public E setCoordinateSystem(String coordinateSystem);
+```
+
+Valid values of `coordinateSystem`:
+- `"cartesian2d"`: two-dimensional rectangular coordinate (also known as Cartesian coordinate) (default)
+- `"polar"`: polar coordinate
+
 ## setStep()
 
 ```java
@@ -46,6 +56,8 @@ public E setEmphasis(LineEmphasisOption emphasis);
 
 `emphasis` is the highlight style of the chart.
 
+TODO: For more APIs of `LineEmphasisOption`, please refer to [LineEmphasisOption](component-apis/line-emphasis-option).
+
 ## setSmooth()
 
 ```java
@@ -63,3 +75,7 @@ public E setData(LineDataItemOption[] data);
 
 public E setData(Object[] data);
 ```
+
+`data` is an array of data points. `Object` can be `String` or `Number` or a mixure of `String` and `Number`.
+
+TODO: For more APIs of `LineDataItemOption`, please refer to [LineDataItemOption](component-apis/line-data-item-option).
