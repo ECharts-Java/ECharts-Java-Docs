@@ -1,6 +1,6 @@
 # SingleAxisOption
 
-`SingleAxisOption` is implemented by `ValueSingleAxis`, `CategorySingleAxis`, `TimeSingleAxis`, and `LogSingleAxis` whose default types are "value", "category", "time", and "log" respectively.
+`SingleAxisOption` is implemented by `ValueSingleAxis`, `CategorySingleAxis`, `TimeSingleAxis`, and `LogSingleAxis` whose default types are `"value"`, `"category"`, `"time"`, and `"log"` respectively.
 
 !> Do not use `setType()` to change the default type.
 
@@ -80,7 +80,7 @@ public class T implements SingleAxisOption {
 
 ?> `T` represents one of `ValueSingleAxis`, `CategorySingleAxis`, `TimeSingleAxis`, and `LogSingleAxis`.
 
-For more APIs and detailed explanation, please refer to [source code](https://echarts.apache.org/en/option.html#singleAxis) and [Apache ECharts docs](https://github.com/ECharts-Java/ECharts-Java/tree/master/src/main/java/org/icepear/echarts/components/coord/single).
+For more APIs and detailed explanation, please refer to [source code](https://github.com/ECharts-Java/ECharts-Java/tree/master/src/main/java/org/icepear/echarts/components/coord/single) and [Apache ECharts docs](https://echarts.apache.org/en/option.html#singleAxis).
 
 ## ValueSingleAxis
 

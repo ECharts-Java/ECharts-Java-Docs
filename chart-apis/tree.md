@@ -2,6 +2,10 @@
 
 ## Usage
 
+?> The following `T` represents `Tree`. This is used to support method chaining. 
+
+?> The following `E` represents `TreeSeries`.
+
 [chart-usage](chart-usage.md ':include')
 
 ## Demo

@@ -2,6 +2,10 @@
 
 ## Usage
 
+?> The following `T` represents `PolarScatter`. This is used to support method chaining. 
+
+?> The following `E` represents `PolarScatterSeries`.
+
 [chart-usage](chart-usage.md ':include')
 
 [polar-coord-chart-usage](polar-coord-chart-usage.md ':include')

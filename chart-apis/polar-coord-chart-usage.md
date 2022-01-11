@@ -10,8 +10,6 @@ public T setPolarAxis(String[] radius);
 public T setPolarAxis(PolarAxis polarAxis);
 ```
 
-?> `T` represents any chart type that extends `PolarCoordChart` (e.g., `PolarLine`, `PolarBar`). This is used to support method chaining.
-
 For more APIs of `PolarAxis`, please refer to [PolarAxis](component-apis/polar-axis).
 
 ### setAngleAxis()
@@ -27,8 +25,6 @@ public T setAngleAxis(String[] categories);
 
 public T setAngleAxis(AngleAxisOption angleAxis);
 ```
-
-?> `T` represents any chart type that extends `PolarCoordChart` (e.g., `PolarLine`, `PolarBar`). This is used to support method chaining.
 
 `AngleAxisOption` is implemented by `ValueAngleAxis`, `CategoryAngleAxis`, `TimeAngleAxis`, and `LogAngleAxis`.
 
@@ -47,8 +43,6 @@ public T setRadiusAxis(String[] categories);
 
 public T setRadiusAxis(RadiusAxisOption radiusAxis);
 ```
-
-?> `T` represents any chart type that extends `PolarCoordChart` (e.g., `PolarLine`, `PolarBar`). This is used to support method chaining.
 
 `RadiusAxisOption` is implemented by `ValueRadiusAxis`, `CategoryRadiusAxis`, `TimeRadiusAxis`, and `LogRadiusAxis`.
 

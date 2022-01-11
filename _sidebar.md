@@ -1,6 +1,6 @@
 - Introduction
 
-  - [Quick Start](/)
+  - [Quick Start](quick-start)
 
 - Chart APIs
   - [Cartesian Coord Chart](chart-apis/cartesian-coord-chart)
@@ -30,7 +30,8 @@
     - [Gauge](chart-apis/gauge)
 
 - Series APIs
-  - dsf
+  - [SeriesOption](series-apis/series-option)
+    - [LineSeries](series-apis/line-series)
 
 - Component APIs
   - [Title](component-apis/title)

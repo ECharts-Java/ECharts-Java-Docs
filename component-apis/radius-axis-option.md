@@ -1,6 +1,6 @@
 # RadiusAxisOption
 
-`RadiusAxisOption` is implemented by `ValueRadiusAxis`, `CategoryRadiusAxis`, `TimeRadiusAxis`, and `LogRadiusAxis` whose default types are "value", "category", "time", and "log" respectively.
+`RadiusAxisOption` is implemented by `ValueRadiusAxis`, `CategoryRadiusAxis`, `TimeRadiusAxis`, and `LogRadiusAxis` whose default types are `"value"`, `"category"`, `"time"`, and `"log"` respectively.
 
 !> Do not use `setType()` to change the default type.
 

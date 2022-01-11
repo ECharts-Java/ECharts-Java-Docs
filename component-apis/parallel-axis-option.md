@@ -1,6 +1,6 @@
 # ParallelAxisOption
 
-`ParallelAxisOption` is implemented by `ValueParallelAxis`, `CategoryParallelAxis`, `TimeParallelAxis`, and `LogParallelAxis` whose default types are "value", "category", "time", and "log" respectively.
+`ParallelAxisOption` is implemented by `ValueParallelAxis`, `CategoryParallelAxis`, `TimeParallelAxis`, and `LogParallelAxis` whose default types are `"value"`, `"category"`, `"time"`, and `"log"` respectively.
 
 !> Do not use `setType()` to change the default type.
 
@@ -56,7 +56,7 @@ public class T implements ParallelAxisOption {
 
 ?> `T` represents one of `ValueParallelAxis`, `CategoryParallelAxis`, `TimeParallelAxis`, and `LogParallelAxis`.
 
-For more APIs and detailed explanation, please refer to [source code](https://echarts.apache.org/en/option.html#parallelAxis) and [Apache ECharts docs](https://github.com/ECharts-Java/ECharts-Java/tree/master/src/main/java/org/icepear/echarts/components/coord/parallel).
+For more APIs and detailed explanation, please refer to [source code](https://github.com/ECharts-Java/ECharts-Java/tree/master/src/main/java/org/icepear/echarts/components/coord/parallel) and [Apache ECharts docs](https://echarts.apache.org/en/option.html#parallelAxis).
 
 ## ValueParallelAxis
 

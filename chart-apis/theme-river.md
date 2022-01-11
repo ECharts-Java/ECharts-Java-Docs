@@ -2,6 +2,10 @@
 
 ## Usage
 
+?> The following `T` represents `ThemeRiver`. This is used to support method chaining. 
+
+?> The following `E` represents `ThemeRiverSeries`.
+
 [chart-usage](chart-usage.md ':include')
 
 [single-coord-chart-usage](single-coord-chart-usage.md ':include')

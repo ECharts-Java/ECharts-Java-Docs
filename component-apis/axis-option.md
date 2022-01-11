@@ -1,6 +1,6 @@
 # AxisOption
 
-`AxisOption` is implemented by `ValueAxis`, `CategoryAxis`, `TimeAxis`, and `LogAxis` whose default types are "value", "category", "time", and "log" respectively.
+`AxisOption` is implemented by `ValueAxis`, `CategoryAxis`, `TimeAxis`, and `LogAxis` whose default types are `"value"`, `"category"`, `"time"`, and `"log"` respectively.
 
 !> Do not use `setType()` to change the default type.
 

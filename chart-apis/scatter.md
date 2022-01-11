@@ -2,6 +2,10 @@
 
 ## Usage
 
+?> The following `T` represents `Scatter`. This is used to support method chaining. 
+
+?> The following `E` represents `ScatterSeries`.
+
 [chart-usage](chart-usage.md ':include')
 
 [cartesian-coord-chart-usage](cartesian-coord-chart-usage.md ':include')
