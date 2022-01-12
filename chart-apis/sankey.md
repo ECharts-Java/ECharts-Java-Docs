@@ -2,9 +2,9 @@
 
 ## Usage
 
-?> The following `T` represents `Sankey`. This is used to support method chaining. 
+?> The following `Chart` represents `Sankey`. This is used to support method chaining. 
 
-?> The following `E` represents `SankeySeries`.
+?> The following `SeriesOption` represents `SankeySeries`.
 
 [chart-usage](chart-usage.md ':include')
 

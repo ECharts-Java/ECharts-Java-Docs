@@ -2,9 +2,9 @@
 
 ## Usage
 
-?> The following `T` represents `Funnel`. This is used to support method chaining. 
+?> The following `Chart` represents `Funnel`. This is used to support method chaining. 
 
-?> The following `E` represents `FunnelSeries`.
+?> The following `SeriesOption` represents `FunnelSeries`.
 
 [chart-usage](chart-usage.md ':include')
 

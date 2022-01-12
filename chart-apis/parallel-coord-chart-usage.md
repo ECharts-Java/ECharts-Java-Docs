@@ -3,15 +3,15 @@
 The coordinate axis for parallel coordinate.
 
 ```java
-public T addParallelAxis(Number dim);
+public Chart addParallelAxis(Number dim);
 
-public T addParallelAxis(String name, Number dim);
+public Chart addParallelAxis(String name, Number dim);
 
-public T addParallelAxis(Number dim, String[] data);
+public Chart addParallelAxis(Number dim, String[] data);
 
-public T addParallelAxis(String name, Number dim, String[] data);
+public Chart addParallelAxis(String name, Number dim, String[] data);
 
-public T addParallelAxis(ParallelAxisOption parallelAxis);
+public Chart addParallelAxis(ParallelAxisOption parallelAxis);
 ```
 
 `ParallelAxisOption` is implemented by `ValueParallelAxis`, `CategoryParallelAxis`, `TimeParallelAxis`, and `LogParallelAxis`.

@@ -2,9 +2,9 @@
 
 ## Usage
 
-?> The following `T` represents `PolarLine`. This is used to support method chaining. 
+?> The following `Chart` represents `PolarLine`. This is used to support method chaining. 
 
-?> The following `E` represents `PolarLineSeries`.
+?> The following `SeriesOption` represents `PolarLineSeries`.
 
 [chart-usage](chart-usage.md ':include')
 

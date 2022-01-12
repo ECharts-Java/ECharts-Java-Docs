@@ -11,9 +11,9 @@ public Option getOption();
 Title includes a main title and a subtitle if specified. By default, it appears in the top left corner of the chart.
 
 ```java
-public T setTitle(String text);
+public Chart setTitle(String text);
 
-public T setTitle(Title title);
+public Chart setTitle(Title title);
 ```
 
 For more APIs of `Title`, please refer to [Title](component-apis/title).
@@ -23,9 +23,9 @@ For more APIs of `Title`, please refer to [Title](component-apis/title).
 Legend shows symbols, colors, and names of different series. You can click legends to toggle displaying series in the chart.
 
 ```java
-public T setLegend();
+public Chart setLegend();
 
-public T setLegend(Legend legend);
+public Chart setLegend(Legend legend);
 ```
 
 For more APIs of `Legend`, please refer to [Legend](component-apis/legend).
@@ -35,9 +35,9 @@ For more APIs of `Legend`, please refer to [Legend](component-apis/legend).
 Tooltip will be triggered when your mouse focuses on data items or axes.
 
 ```java
-public T setTooltip(String trigger);
+public Chart setTooltip(String trigger);
 
-public T setTooltip(Tooltip tooltip);
+public Chart setTooltip(Tooltip tooltip);
 ```
 
 For more APIs of `Tooltip`, please refer to [Tooltip](component-apis/tooltip).
@@ -47,13 +47,13 @@ For more APIs of `Tooltip`, please refer to [Tooltip](component-apis/tooltip).
 Dataset enables data reuse by different series and some simple data transforms (e.g., `"filter"`, `"sort"`).
 
 ```java
-public T addDataset(Object[] source);
+public Chart addDataset(Object[] source);
 
-public T addDataset(Object[][] source);
+public Chart addDataset(Object[][] source);
 
-public T addDataset(Object[][][] source);
+public Chart addDataset(Object[][][] source);
 
-public T addDataset(Dataset dataset);
+public Chart addDataset(Dataset dataset);
 ```
 
 For more APIs of `Dataset`, please refer to [Dataset](component-apis/dataset).
@@ -63,9 +63,9 @@ For more APIs of `Dataset`, please refer to [Dataset](component-apis/dataset).
 Visual Mapping maps data to visual channels including symbols, colors, opacity, etc.
 
 ```java
-public T setVisualMap(Number min, Number max);
+public Chart setVisualMap(Number min, Number max);
 
-public T setVisualMap(VisualMapOption visualMap);
+public Chart setVisualMap(VisualMapOption visualMap);
 ```
 
 `VisualMapOption` is implemented by `ContinousVisualMap` and `PiecewiseVisualMap`.
@@ -77,19 +77,19 @@ For more APIs of `VisualMapOption`, please refer to [VisualMapOption](component-
 Series contains data.
 
 ```java
-public T addSeries(Object[] data);
+public Chart addSeries(Object[] data);
 
-public T addSeries(Object[][] data);
+public Chart addSeries(Object[][] data);
 
-public T addSeries(Object[][][] data);
+public Chart addSeries(Object[][][] data);
 
-public T addSeries(String name, Object[] data);
+public Chart addSeries(String name, Object[] data);
 
-public T addSeries(String name, Object[][] data);
+public Chart addSeries(String name, Object[][] data);
 
-public T addSeries(String name, Object[][][] data);
+public Chart addSeries(String name, Object[][][] data);
 
-public T addSeries(E series);
+public Chart addSeries(SeriesOption series);
 ```
 
-TODO: For more APIs of `SeriesOption`, please refer to [SeriesOption]().
+For more APIs of `SeriesOption`, please refer to [SeriesOption](series-apis/series-option).

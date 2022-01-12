@@ -2,9 +2,9 @@
 
 ## Usage
 
-?> The following `T` represents `ThemeRiver`. This is used to support method chaining. 
+?> The following `Chart` represents `ThemeRiver`. This is used to support method chaining. 
 
-?> The following `E` represents `ThemeRiverSeries`.
+?> The following `SeriesOption` represents `ThemeRiverSeries`.
 
 [chart-usage](chart-usage.md ':include')
 

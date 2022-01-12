@@ -1,6 +1,6 @@
 # BoxplotSeries
 
-?> The following `E` represents `BoxplotSeries`. This is used to support method chaining. 
+?> The following `SeriesOption` represents `BoxplotSeries`. This is used to support method chaining. 
 
 [series-option-usage](series-option-usage.md ':include')
 

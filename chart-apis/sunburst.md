@@ -2,9 +2,9 @@
 
 ## Usage
 
-?> The following `T` represents `Sunburst`. This is used to support method chaining. 
+?> The following `Chart` represents `Sunburst`. This is used to support method chaining. 
 
-?> The following `E` represents `SunburstSeries`.
+?> The following `SeriesOption` represents `SunburstSeries`.
 
 [chart-usage](chart-usage.md ':include')
 

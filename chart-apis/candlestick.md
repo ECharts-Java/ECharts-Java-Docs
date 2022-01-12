@@ -2,9 +2,9 @@
 
 ## Usage
 
-?> The following `T` represents `Candlestick`. This is used to support method chaining. 
+?> The following `Chart` represents `Candlestick`. This is used to support method chaining. 
 
-?> The following `E` represents `CandlestickSeries`.
+?> The following `SeriesOption` represents `CandlestickSeries`.
 
 [chart-usage](chart-usage.md ':include')
 

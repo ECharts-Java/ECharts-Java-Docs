@@ -2,9 +2,9 @@
 
 ## Usage
 
-?> The following `T` represents `Radar`. This is used to support method chaining. 
+?> The following `Chart` represents `Radar`. This is used to support method chaining. 
 
-?> The following `E` represents `RadarSeries`.
+?> The following `SeriesOption` represents `RadarSeries`.
 
 [chart-usage](chart-usage.md ':include')
 

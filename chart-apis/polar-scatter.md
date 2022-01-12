@@ -2,9 +2,9 @@
 
 ## Usage
 
-?> The following `T` represents `PolarScatter`. This is used to support method chaining. 
+?> The following `Chart` represents `PolarScatter`. This is used to support method chaining. 
 
-?> The following `E` represents `PolarScatterSeries`.
+?> The following `SeriesOption` represents `PolarScatterSeries`.
 
 [chart-usage](chart-usage.md ':include')
 

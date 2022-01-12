@@ -2,9 +2,9 @@
 
 ## Usage
 
-?> The following `T` represents `Line`. This is used to support method chaining. 
+?> The following `Chart` represents `Line`. This is used to support method chaining. 
 
-?> The following `E` represents `LineSeries`.
+?> The following `SeriesOption` represents `LineSeries`.
 
 [chart-usage](chart-usage.md ':include')
 

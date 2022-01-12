@@ -2,9 +2,9 @@
 
 ## Usage
 
-?> The following `T` represents `Heatmap`. This is used to support method chaining. 
+?> The following `Chart` represents `Heatmap`. This is used to support method chaining. 
 
-?> The following `E` represents `HeatmapSeries`.
+?> The following `SeriesOption` represents `HeatmapSeries`.
 
 [chart-usage](chart-usage.md ':include')
 
