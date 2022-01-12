@@ -6,7 +6,7 @@
 
 [cartesian-mixin-usage](cartesian-mixin-usage.md ':include')
 
-[stack-mixin-usage](stack-mixin-usage.md ':include')
+[mark-mixin-usage](mark-mixin-usage.md ':include')
 
 [boxplot-series-usage](boxplot-series-usage.md ':include')
 
