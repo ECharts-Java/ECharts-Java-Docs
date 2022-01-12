@@ -1,7 +1,7 @@
 ## setName()
 
 ```java
-public E setName(String name);
+public SeriesOption setName(String name);
 ```
 
 The `name` of this series will be displayed in [Tooltip](component-apis/tooltip) and [Legend](component-apis/legend).
@@ -9,7 +9,7 @@ The `name` of this series will be displayed in [Tooltip](component-apis/tooltip)
 ## setColorBy()
 
 ```java
-public E setColorBy(String colorBy);
+public SeriesOption setColorBy(String colorBy);
 ```
 
 Valid values of `colorBy`:
@@ -19,7 +19,7 @@ Valid values of `colorBy`:
 ## setLabel()
 
 ```java
-public E setLabel(SeriesLabelOption label);
+public SeriesOption setLabel(SeriesLabelOption label);
 ```
 
 `label` is used to show some information about data points like `value`, `name`, and so on.
@@ -29,7 +29,7 @@ For more APIs of `SeriesLabelOption`, please refer to [SeriesLabelOption](compon
 ## setLabelLine()
 
 ```java
-public E setLabelLine(LabelLineOption labelLine);
+public SeriesOption setLabelLine(LabelLineOption labelLine);
 ```
 
 `labelLine` is the configuration of the line pointing to `label`.

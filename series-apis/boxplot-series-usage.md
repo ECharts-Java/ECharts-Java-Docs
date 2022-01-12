@@ -1,7 +1,7 @@
 ## setLayout()
 
 ```java
-public E setLayout(String layout);
+public SeriesOption setLayout(String layout);
 ```
 
 Valid values of `layout`:
@@ -11,9 +11,9 @@ Valid values of `layout`:
 ## setBoxWidth()
 
 ```java
-public E setBoxWidth(Number[] boxWidth);
+public SeriesOption setBoxWidth(Number[] boxWidth);
 
-public E setBoxWidth(String[] boxWidth);
+public SeriesOption setBoxWidth(String[] boxWidth);
 ```
 
 `boxWidth` determines the lower and upper boundary of box bix width. The array is in the form of `[min, max]`.
@@ -23,7 +23,7 @@ It could be absolute value in pixel, such as `[7, 50]`, or percentage, such as `
 ## setItemStyle()
 
 ```java
-public E setItemStyle(ItemStyleOption itemStyle);
+public SeriesOption setItemStyle(ItemStyleOption itemStyle);
 ```
 
 `itemStyle` determines the style of boxplot.
@@ -33,7 +33,7 @@ For more APIs of `ItemStyleOption`, please refer to [ItemStyleOption](component-
 ## setEmphasis()
 
 ```java
-public E setEmphasis(BoxplotEmphasisOption emphasis);
+public SeriesOption setEmphasis(BoxplotEmphasisOption emphasis);
 ```
 
 `emphasis` is the highlight style of the chart.

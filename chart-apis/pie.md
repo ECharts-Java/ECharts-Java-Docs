@@ -2,9 +2,9 @@
 
 ## Usage
 
-?> The following `T` represents `Pie`. This is used to support method chaining. 
+?> The following `Chart` represents `Pie`. This is used to support method chaining. 
 
-?> The following `E` represents `PieSeries`.
+?> The following `SeriesOption` represents `PieSeries`.
 
 [chart-usage](chart-usage.md ':include')
 

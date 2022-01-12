@@ -3,11 +3,11 @@
 A chart with polar coordinate must have one `PolarAxis`.
 
 ```java
-public T setPolarAxis();
+public Chart setPolarAxis();
 
-public T setPolarAxis(String[] radius);
+public Chart setPolarAxis(String[] radius);
 
-public T setPolarAxis(PolarAxis polarAxis);
+public Chart setPolarAxis(PolarAxis polarAxis);
 ```
 
 For more APIs of `PolarAxis`, please refer to [PolarAxis](component-apis/polar-axis).
@@ -17,13 +17,13 @@ For more APIs of `PolarAxis`, please refer to [PolarAxis](component-apis/polar-a
 The angle axis in Polar Coordinate.
 
 ```java
-public T setAngleAxis();
+public Chart setAngleAxis();
 
-public T setAngleAxis(Number max);
+public Chart setAngleAxis(Number max);
 
-public T setAngleAxis(String[] categories);
+public Chart setAngleAxis(String[] categories);
 
-public T setAngleAxis(AngleAxisOption angleAxis);
+public Chart setAngleAxis(AngleAxisOption angleAxis);
 ```
 
 `AngleAxisOption` is implemented by `ValueAngleAxis`, `CategoryAngleAxis`, `TimeAngleAxis`, and `LogAngleAxis`.
@@ -35,13 +35,13 @@ For more APIs of `AngleAxisOption`, please refer to [AngleAxisOption](component-
 The radial axis of polar coordinate.
 
 ```java
-public T setRadiusAxis();
+public Chart setRadiusAxis();
 
-public T setRadiusAxis(Number max);
+public Chart setRadiusAxis(Number max);
 
-public T setRadiusAxis(String[] categories);
+public Chart setRadiusAxis(String[] categories);
 
-public T setRadiusAxis(RadiusAxisOption radiusAxis);
+public Chart setRadiusAxis(RadiusAxisOption radiusAxis);
 ```
 
 `RadiusAxisOption` is implemented by `ValueRadiusAxis`, `CategoryRadiusAxis`, `TimeRadiusAxis`, and `LogRadiusAxis`.

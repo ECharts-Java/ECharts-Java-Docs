@@ -1,7 +1,7 @@
 ## setXAxisIndex()
 
 ```java
-public E setXAxisIndex(Number xAxisIndex);
+public SeriesOption setXAxisIndex(Number xAxisIndex);
 ```
 
 `xAxisIndex` is the index of [x axis](component-apis/axis-option) to combine with, which is useful when a chart has multiple x axes. The default value is `0`.
@@ -9,7 +9,7 @@ public E setXAxisIndex(Number xAxisIndex);
 ## setYAxisIndex()
 
 ```java
-public E setYAxisIndex(Number yAxisIndex);
+public SeriesOption setYAxisIndex(Number yAxisIndex);
 ```
 
 `xAxisIndex` is the index of [y axis](component-apis/axis-option) to combine with, which is useful when a chart has multiple y axes. The default value is `0`.

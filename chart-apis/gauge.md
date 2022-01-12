@@ -2,9 +2,9 @@
 
 ## Usage
 
-?> The following `T` represents `Gauge`. This is used to support method chaining. 
+?> The following `Chart` represents `Gauge`. This is used to support method chaining. 
 
-?> The following `E` represents `GaugeSeries`.
+?> The following `SeriesOption` represents `GaugeSeries`.
 
 [chart-usage](chart-usage.md ':include')
 

@@ -2,9 +2,9 @@
 
 ## Usage
 
-?> The following `T` represents `Bar`. This is used to support method chaining. 
+?> The following `Chart` represents `Bar`. This is used to support method chaining. 
 
-?> The following `E` represents `BarSeries`.
+?> The following `SeriesOption` represents `BarSeries`.
 
 [chart-usage](chart-usage.md ':include')
 

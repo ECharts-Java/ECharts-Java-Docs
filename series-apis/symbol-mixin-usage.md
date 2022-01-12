@@ -1,7 +1,7 @@
 ## setSymbol()
 
 ```java
-public E setSymbol(String symbol);
+public SeriesOption setSymbol(String symbol);
 ```
 
 `symbol` is the icon to mark data point. Valid values include `"emptyCircle"` (default), `"circle"`, `"rect"`, `"roundRect"`, `"triangle"`, `"diamond"`, `"pin"`, `"arrow"`, `"none"`.
@@ -9,9 +9,9 @@ public E setSymbol(String symbol);
 ## setSymbolSize()
 
 ```java
-public E setSymbolSize(Number symbolSize);
+public SeriesOption setSymbolSize(Number symbolSize);
 
-public E setSymbolSize(Number[] symbolSize);
+public SeriesOption setSymbolSize(Number[] symbolSize);
 ```
 
 `symbolSize` can be set to a single number like `10`, or an array to represent width and height respectively like `[20, 10]`.
@@ -19,7 +19,7 @@ public E setSymbolSize(Number[] symbolSize);
 ## setShowSymbol()
 
 ```java
-public E setShowSymbol(Boolean showSymbol);
+public SeriesOption setShowSymbol(Boolean showSymbol);
 ```
 
 `showSymbol` determines whether to show symbols of data points.

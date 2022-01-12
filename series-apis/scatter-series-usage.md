@@ -1,7 +1,7 @@
 ## setCoordinateSystem()
 
 ```java
-public E setCoordinateSystem(String coordinateSystem);
+public SeriesOption setCoordinateSystem(String coordinateSystem);
 ```
 
 Valid values of `coordinateSystem`:
@@ -12,11 +12,11 @@ Valid values of `coordinateSystem`:
 ## setData()
 
 ```java
-public E setData(ScatterDataItemOption[] data);
+public SeriesOption setData(ScatterDataItemOption[] data);
 
-public E setData(Object[] data);
+public SeriesOption setData(Object[] data);
 
-public E setData(Object[][] data);
+public SeriesOption setData(Object[][] data);
 ```
 
 `data` is an array of data points. `Object` can be `String` or `Number` or a mixure of `String` and `Number`.

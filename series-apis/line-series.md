@@ -1,6 +1,6 @@
 # LineSeries
 
-?> The following `E` represents `LineSeries`. This is used to support method chaining. 
+?> The following `SeriesOption` represents `LineSeries`. This is used to support method chaining. 
 
 [series-option-usage](series-option-usage.md ':include')
 

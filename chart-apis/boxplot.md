@@ -2,9 +2,9 @@
 
 ## Usage
 
-?> The following `T` represents `Boxplot`. This is used to support method chaining. 
+?> The following `Chart` represents `Boxplot`. This is used to support method chaining. 
 
-?> The following `E` represents `BoxplotSeries`.
+?> The following `SeriesOption` represents `BoxplotSeries`.
 
 [chart-usage](chart-usage.md ':include')
 

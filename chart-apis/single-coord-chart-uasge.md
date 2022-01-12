@@ -3,7 +3,7 @@
 An axis with a single dimension. It can be used to display data in one dimension.
 
 ```java
-public T setSingleAxis(SingleAxisOption singleAxis);
+public Chart setSingleAxis(SingleAxisOption singleAxis);
 ```
 
 `SingleAxisOption` is implemented by `ValueSingleAxis`, `CategorySingleAxis`, `TimeSingleAxis`, and `LogSingleAxis`.
