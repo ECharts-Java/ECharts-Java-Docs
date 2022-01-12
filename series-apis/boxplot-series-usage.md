@@ -43,11 +43,11 @@ TODO: For more APIs of `BoxplotEmphasisOption`, please refer to [BoxplotEmphasis
 ## setData()
 
 ```java
-public BoxplotSeries setData(BoxplotDataItemOption[] data);
+public SeriesOption setData(BoxplotDataItemOption[] data);
 
-public BoxplotSeries setData(Number[][] data);
+public SeriesOption setData(Number[][] data);
 ```
 
-`data` can be a two-dimensional `Number` array where each line is in the form of `[min,  Q1,  median (or Q2),  Q3,  max]`.
+`data` can be a two-dimensional `Number` array where each row is in the form of `[min,  Q1,  median (or Q2),  Q3,  max]`.
 
 TODO: For more APIs of `BoxplotDataItemOption`, please refer to [BoxplotDataItemOption](component-apis/boxplot-data-item-option).
