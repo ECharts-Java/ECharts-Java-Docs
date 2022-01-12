@@ -41,11 +41,11 @@ TODO: For more APIs of `CandlestickEmphasisOption`, please refer to [Candlestick
 ## setData()
 
 ```java
-public CandlestickSeries setData(CandlestickDataItemOption[] data);
+public SeriesOption setData(CandlestickDataItemOption[] data);
 
-public CandlestickSeries setData(Number[][] data);
+public SeriesOption setData(Number[][] data);
 ```
 
-`data` can be a two-dimensional `Number` array where each line is in the form of `[open, close, lowest, highest]`.
+`data` can be a two-dimensional `Number` array where each row is in the form of `[open, close, lowest, highest]`.
 
 TODO: For more APIs of `CandlestickDataItemOption`, please refer to [CandlestickDataItemOption](component-apis/candlestick-data-item-option).
