@@ -2,7 +2,7 @@
 
 ## 如何安装
 
-Maven Project:
+Maven项目:
 ```xml
 // pom.xml
 <dependency>
@@ -12,7 +12,7 @@ Maven Project:
 </dependency>
 ```
 
-Gradle Groovy Project:
+Gradle项目:
 ```
 implementation 'org.icepear.echarts:echarts-java:1.0.2'
 ```

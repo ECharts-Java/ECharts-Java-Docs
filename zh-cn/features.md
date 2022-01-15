@@ -8,7 +8,7 @@ ECharts Java是一款基于[Apache ECharts](https://echarts.apache.org/en/index.
 
 ## 特性
 
-- 简单，整洁，高度组织化的API接口，支持链式调用。
+- 简单、整洁、高度组织化的API接口，支持链式调用
 - 完整保存Apache ECharts的功能
 - 快速集成至当前流行的Web框架
 - 灵活的导出格式，支持HTML，PNG和JSON
