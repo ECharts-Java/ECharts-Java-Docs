@@ -39,6 +39,7 @@
     - [HeatmapSeries](series-apis/heatmap-series)
     - [RadarSeries](series-apis/radar-series)
     - [ParallelSeries](series-apis/parallel-series)
+    - [ThemeRiverSeries](series-apis/theme-river-series)
 
 - Component APIs
   - [Title](component-apis/title)
