@@ -38,6 +38,7 @@
     - [CandlestickSeries](series-apis/candlestick-series)
     - [HeatmapSeries](series-apis/heatmap-series)
     - [RadarSeries](series-apis/radar-series)
+    - [ParallelSeries](series-apis/parallel-series)
 
 - Component APIs
   - [Title](component-apis/title)

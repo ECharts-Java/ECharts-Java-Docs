@@ -66,7 +66,7 @@ public SeriesOption setSmooth(Boolean smooth);
 public SeriesOption setSmooth(Number smooth);
 ```
 
-`smooth` determines whether to show the line as a smooth curve.
+`smooth` determines whether to show the line as a smooth curve.  It can be a `Boolean` or a `Number` ranging from `0` to `1` which indicates the smoothness.
 
 ## setData()
 
