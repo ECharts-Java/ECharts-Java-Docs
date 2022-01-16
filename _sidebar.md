@@ -37,6 +37,7 @@
     - [BoxplotSeries](series-apis/boxplot-series)
     - [CandlestickSeries](series-apis/candlestick-series)
     - [HeatmapSeries](series-apis/heatmap-series)
+    - [RadarSeries](series-apis/radar-series)
 
 - Component APIs
   - [Title](component-apis/title)
