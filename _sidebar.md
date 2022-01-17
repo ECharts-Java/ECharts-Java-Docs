@@ -2,7 +2,7 @@
 
   - [Quick Start](quick-start)
 
-- Chart APIs
+- Chart APIs & Demo
   - [Cartesian Coord Chart](chart-apis/cartesian-coord-chart)
     - [Line](chart-apis/line)
     - [Bar](chart-apis/bar)
@@ -40,6 +40,7 @@
     - [RadarSeries](series-apis/radar-series)
     - [ParallelSeries](series-apis/parallel-series)
     - [ThemeRiverSeries](series-apis/theme-river-series)
+    - [PieSeries](series-apis/pie-series)
 
 - Component APIs
   - [Title](component-apis/title)
