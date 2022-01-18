@@ -1,3 +1,5 @@
+# Overview
+
 ## Design Philosophy
 
 ECharts Java is a simple but comprehensive Data Visualization Library based on [Apache ECharts](https://echarts.apache.org/en/index.html).

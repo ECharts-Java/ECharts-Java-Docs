@@ -11,4 +11,4 @@
 - Easily export to PNG, HTML, and JSON
 
 [GitHub](https://github.com/ECharts-Java/ECharts-Java.git)
-[Get Started](quick-start)
+[Get Started](overview)
