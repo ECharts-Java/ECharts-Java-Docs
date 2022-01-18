@@ -1,5 +1,5 @@
 - Introduction
-
+  - [Overview](overview)
   - [Quick Start](quick-start)
 
 - Chart APIs & Demo

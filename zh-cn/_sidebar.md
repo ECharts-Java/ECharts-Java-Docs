@@ -1,16 +1,16 @@
 - 介绍
-    - [特性介绍](zh-cn/features)
+    - [概述](zh-cn/overview)
     - [快速上手](zh-cn/quick-start)
 
-- 图表(Chart)APIs
+- 图表 APIs
     - dfs
 
-- 数据序列(Series) APIs
+- 数据序列 (Series) APIs
     - dfs
 
-- 组件(Component)APIs
+- 组件 (Component) APIs
 
-- 渲染APIs
+- 渲染 APIs
     - [render()](zh-cn/render/render)
     - [renderHtml()](zh-cn/render/render-html)
     - [renderJsonOption()](zh-cn/render/render-json-option)
