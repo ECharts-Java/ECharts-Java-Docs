@@ -41,6 +41,7 @@
     - [ParallelSeries](series-apis/parallel-series)
     - [ThemeRiverSeries](series-apis/theme-river-series)
     - [PieSeries](series-apis/pie-series)
+    - [GraphSeries](series-apis/graph-series)
 
 - Component APIs
   - [Title](component-apis/title)
