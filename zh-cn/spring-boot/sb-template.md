@@ -15,14 +15,14 @@ ECharts Java使用Handlebars.java作为内置的模板引擎，用以生成HTML�
 
 1. [**初始化Spring Boot应用**](https://spring.io/guides/gs/spring-boot/#scratch)
 
-2. [**安装ECharts Java依赖**](https://search.maven.org/artifact/org.icepear.echarts/echarts-java/1.0.2/jar)
+2. [**安装ECharts Java依赖**](https://search.maven.org/artifact/org.icepear.echarts/echarts-java/1.0.3/jar)
 
 Maven项目请将如下代码复制粘贴至pom.xml。
 ```
 <dependency>
   <groupId>org.icepear.echarts</groupId>
   <artifactId>echarts-java</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
 </dependency>
 ```
 

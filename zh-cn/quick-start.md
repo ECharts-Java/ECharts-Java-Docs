@@ -8,16 +8,16 @@ Maven项目:
 <dependency>
   <groupId>org.icepear.echarts</groupId>
   <artifactId>echarts-java</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
 </dependency>
 ```
 
 Gradle项目:
 ```
-implementation 'org.icepear.echarts:echarts-java:1.0.2'
+implementation 'org.icepear.echarts:echarts-java:1.0.3'
 ```
 
-如果你使用的是其他项目，请参阅[这里](https://search.maven.org/artifact/org.icepear.echarts/echarts-java/1.0.2/jar)。
+如果你使用的是其他项目，请参阅[这里](https://search.maven.org/artifact/org.icepear.echarts/echarts-java/1.0.3/jar)。
 
 ## 立刻上手
 
