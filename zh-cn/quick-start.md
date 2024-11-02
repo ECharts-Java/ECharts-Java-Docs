@@ -14,10 +14,10 @@ Maven项目:
 
 Gradle项目:
 ```
-implementation 'org.icepear.echarts:echarts-java:1.0.3'
+implementation 'org.icepear.echarts:echarts-java:1.0.7'
 ```
 
-如果你使用的是其他项目，请参阅[这里](https://search.maven.org/artifact/org.icepear.echarts/echarts-java/1.0.3/jar)。
+如果你使用的是其他项目，请参阅[这里](https://search.maven.org/artifact/org.icepear.echarts/echarts-java/1.0.7/jar)。
 
 ## 立刻上手
 
